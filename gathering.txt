@@ -1,0 +1,43 @@
+O faz pergunta é um repositório de questões de múltipla escolha.
+O professor pode inserir perguntas e montar provas selecionando as perguntar existentes
+
+A estrutura básica da questão é: Uma questão de multipla escolha, com 4 alternativas, sendo apenas uma correta.
+
+A classificação das questões:
+Etapa
+Módulo
+Objetivo
+TAGs
+
+Cada questão deve ter pertencer a um objetivo, que pertence a um módulo, que pertence a uma etapa.
+Uma etapa pode ter vários módulos
+Um módulo pode ter vários objetivos
+Uma questão pode ter várias TAGs, independente da etapa, módulo e/ou objetivo. As TAGs são relacionadas ao assunto da questão.
+A questão pode ter uma imagem atrelada a ela.
+
+Usuário:
+ADMIN
+Tem acesso a tudo, pode deletar, inserir e excluir usuários.
+CRUD Etapa, módulo, objetivo
+Edita e deleta TAGs
+Pode montar uma prova selecionando perguntas
+
+PROFESSOR:
+CRUD Questões
+Insere TAGs
+Pode visualizar as perguntas existentes
+Pode montar uma prova para uma Etapa/Módulo específicos, selecionando perguntas de todos os objetivos desse módulo
+
+A PROVA:
+Deve ter um cabeçalho padrão
+Deve ter uma introdução padrão
+Deve conter as perguntas selecionadas
+Deve randomizar a ordem das perguntas e das respectivas alternativas
+Deve ter a versão de impressão
+Deve oferecer o gabarito ao professor para posterior conferencia
+
+A prova pode ser salva e ficará disponível para todos os usuários.
+
+
+
+
